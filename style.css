@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "OCR A Std", Times, serif;
+}
+#fullpage {
+  height: 100vh;
+  overflow: hidden;
+}
+#fullpage section {
+  height: 100vh;
+}
+#fullpage section h1{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 100vh;
+  font-size: 10em;
+}
+#fullpage section:nth-child(1) {
+   background-color: #217ca3;
+   color: white;
+}
+#fullpage section:nth-child(2) {
+   background-color: #e29930;
+   color: white;
+}
+#fullpage section:nth-child(3) {
+   background-color: #32384d;
+   color: white;
+}
+#fullpage section:nth-child(4) {
+   background-color: #211f30;
+   color: white;
+}
+#fullpage section:nth-child(5) {
+   background-color: #217ca3;
+   color: white;
+}
